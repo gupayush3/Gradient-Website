@@ -1,0 +1,51 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.first{
+    padding: 10px;
+   
+}
+h2{
+    padding: 10px;
+}
+#myButton {
+    background-color: #051937;
+    border-radius: 50px;
+    width: 90px;
+    height: 20px;
+    margin: 10px;
+    
+}
+#myButton2 {
+    background-color: greenyellow;
+    border-radius: 50px;
+    width: 90px;
+    height: 20px;
+}
+.copyCode{
+    align-self: center;
+    font-size: 1.8rem;
+    width: 35%;
+    margin: 0 auto;
+    display: block;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    border-left: 3px solid grey;
+    background-color: rgba(189,189,189,0.3);
+    padding: 15px 8px 15px 17px;
+    border-radius: 5px;
+
+}
+body{
+   background-image: linear-gradient(to right, rgb(92,145,229),rgb(152,63,198));
+
+}
